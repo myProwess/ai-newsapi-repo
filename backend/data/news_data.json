@@ -1,0 +1,136 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "title": "The Next Generation of AI Models Unveiled: Faster, Cheaper, and More Capable",
+            "slug": "next-gen-ai-models-unveiled",
+            "excerpt": "Major tech companies announce breakthroughs in artificial intelligence, promising neural networks that use less compute while delivering superior reasoning capabilities.",
+            "content": "The artificial intelligence landscape took another massive leap forward today as leading research labs simultaneously published papers detailing new architectures that dramatically improve both efficiency and reasoning capable. \n\nUnlike the massive parameter-scaling approaches of the last three years, these new models rely on \"Sparse Mixture of Experts\" architectures that only activate relevant pathways for specific queries. This means running advanced AI locally on consumer hardware—from smartphones to laptops—is rapidly becoming a reality.\n\n\"We're moving from the era of brute force compute to the era of elegant architecture,\" said Dr. Elena Rostova, lead researcher at a prominent AI lab. Development teams have also reported significant reductions in \"hallucinations,\" with the new systems demonstrating an unprecedented ability to cite their reasoning steps transparently.",
+            "author": "Sarah Jenkins",
+            "publishDate": "2026-03-09T09:00:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1600&auto=format&fit=crop",
+            "category": "Technology"
+        },
+        {
+            "id": "2",
+            "title": "Global Markets React Expectedly to Unexpected Interest Rate Cuts",
+            "slug": "global-markets-react-unexpected-rate-cuts",
+            "excerpt": "Central banks globally coordinate a surprise 50 basis point cut, sending equities to all-time highs while causing turbulence in currency markets.",
+            "content": "In a highly unusual coordinated move, major central banks around the world announced a 50 basis point interest rate cut early Monday morning. The decision, aimed to preempt what internal models flagged as a potential mild recessionary environment late in 2026, caught analysts completely off guard.\n\nEquities immediately responded. The S&P 500, Nikkei, and FTSE all rallied more than 3% in early trading, breaking previous all-time highs set just last month. Tech and real estate sectors led the surge, as investors re-priced future cash flows in a lower-yield environment.\n\nHowever, the sudden influx of liquidity caused massive volatility in foreign exchange markets. The US Dollar weakened slightly against emerging market currencies, providing a temporary lifeline to countries struggling with dollar-denominated debt. Analysts are divided on the long-term impacts, with some warning of renewed inflationary pressures by Q4.",
+            "author": "Marcus Thorne",
+            "publishDate": "2026-03-08T14:30:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
+            "category": "Business"
+        },
+        {
+            "id": "3",
+            "title": "Underdog City FC Qualifies For The Finals Following Miracle Run",
+            "slug": "underdog-city-fc-qualifies-finals",
+            "excerpt": "In a season defined by injuries and low expectations, City FC has defied the odds to secure a spot in the championship match, stunning the football world.",
+            "content": "Nobody saw this coming. When City FC lost their star striker to a season-ending injury in October, bookmakers adjusted their odds of reaching the championship match to 500-to-1. Yet, here we are.\n\nLast night, in front of a capacity crowd and millions watching globally, the ragtag squad pulled off a stunning 2-1 victory against the reigning champions. The winning goal came in the 94th minute—a blistering strike from academy graduate Leo Martinez, who was only added to the senior squad out of necessity.\n\nManager Thomas Silva, visibly emotional in the post-match press conference, credited the team's resilience. \"When you have nothing left to lose, you play with freedom. These boys played with the heart of champions for six straight months.\" They will face United Elite in the finals next Saturday in what is already being billed as the most anticipated match of the decade.",
+            "author": "Diego Alvarez",
+            "publishDate": "2026-03-07T22:15:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1600&auto=format&fit=crop",
+            "category": "Sports"
+        },
+        {
+            "id": "4",
+            "title": "Senate Passes Landmark Infrastructure Bill Following Late-Night Negotiations",
+            "slug": "senate-passes-landmark-infrastructure-bill",
+            "excerpt": "A bipartisan coalition successfully pushed through the $1.2 trillion package aimed at modernizing the nation's grid, bridges, and digital infrastructure.",
+            "content": "After weeks of intense debate, gridlock, and last-minute concessions, the Senate passed the highly anticipated Comprehensive Infrastructure and Modernization Act at 3:15 AM on Friday. The 68-32 vote was a rare display of bipartisanship in a deeply divided chamber.\n\nThe $1.2 trillion package allocates massive funding toward rebuilding crumbling bridges, expanding broadband internet to rural areas, and—most notably—a $300 billion carve-out for modernizing the national electrical grid to handle the increasing load from electric vehicles and AI data centers.\n\n\"This isn't just about fixing potholes; this is about preparing our country for the next fifty years,\" stated the Senate Majority Leader. Critics, however, have raised concerns about the funding mechanisms, pointing to an increased national deficit. The bill now moves to the House, where leadership has promised a swift vote before the upcoming recess.",
+            "author": "Amanda Chen",
+            "publishDate": "2026-03-06T08:45:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1523292562811-8fa7962a78c8?q=80&w=1600&auto=format&fit=crop",
+            "category": "Politics"
+        },
+        {
+            "id": "5",
+            "title": "Quantum Computing Reaches 'Practical Supremacy' for Supply Chain Routing",
+            "slug": "quantum-computing-practical-supremacy",
+            "excerpt": "A logistics giant utilized a 128-qubit quantum processor to optimize its global shipping routes, saving an estimated 14% in fuel costs in a single month.",
+            "content": "Quantum computing has frequently been criticized as a \"technology of tomorrow\" that perpetually remains ten years away. However, a major breakthrough reported this week suggests tomorrow has arrived for specific industrial applications.\n\nGlobal shipping conglomerate Titan Logistics partnered with quantum hardware startup Q-Scale to solve the incredibly complex \"dynamic traveling salesperson\" problem tailored to their global fleet. Factoring in real-time weather, port congestion, fuel prices, and varying ship capacities, the 128-qubit system produced routing solutions in three minutes that would take classical supercomputers centuries to calculate.\n\nThe result? A staggering 14% reduction in fuel consumption across their Pacific fleet in a 30-day pilot. While these systems cannot yet break modern encryption or handle general-purpose computing tasks, their ability to solve highly specific, multi-variable optimization problems is poised to revolutionize logistics, drug discovery, and financial modeling over the next 18 months.",
+            "author": "Dr. James Aris",
+            "publishDate": "2026-03-05T11:20:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1600&auto=format&fit=crop",
+            "category": "Technology"
+        },
+        {
+            "id": "6",
+            "title": "Startups Pivot Focus to Profitability as Infinite Capital Era Closes",
+            "slug": "startups-pivot-profitability-capital-era-closes",
+            "excerpt": "Venture capital firms are demanding clear paths to profitability, forcing a massive cultural shift in Silicon Valley from 'growth at all costs' to sustainable unit economics.",
+            "content": "The days of subsidized rides, heavily discounted food delivery, and multi-million dollar marketing campaigns for unproven products appear to be over. Venture capital firms, facing pressure from their own LPs due to sustained high interest rates, have entirely shifted their investment thesis.\n\n\"We are no longer funding user acquisition unless it comes with positive unit economics from day one,\" stated managing partner Laura Vance during a tech conference in San Francisco. This shift has forced rapid restructuring across the startup ecosystem. High-burn companies are executing widespread layoffs, while \"boring\" B2B software companies with sticky revenue and high margins are receiving premium valuations.\n\nFounders are adapting to this new reality. Pitch decks now heavily feature terms like \"EBITDA,\" \"CAC payback periods,\" and \"capital efficiency\" over \"total addressable market\" and \"user growth metrics.\" The consensus among industry veterans is that while painful in the short term, this correction will lead to fundamentally stronger, more resilient businesses.",
+            "author": "Samantha Wei",
+            "publishDate": "2026-03-04T16:00:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1555529733-0e670560f0e1?q=80&w=1600&auto=format&fit=crop",
+            "category": "Business"
+        },
+        {
+            "id": "7",
+            "title": "Formula 1 Announces Groundbreaking Zero-Emission Fuel Standard for 2028",
+            "slug": "f1-zero-emission-fuel-standard",
+            "excerpt": "In a massive push toward sustainability without sacrificing speed, F1 regulates a shift to 100% synthetic, zero-emission fuels starting in the 2028 season.",
+            "content": "Motorsport purists breathed a collective sigh of relief today as the FIA announced the future of Formula 1: internal combustion engines are staying, but fossil fuels are out. Starting in 2028, all teams must utilize a newly developed 100% synthetic, zero-emission fuel.\n\nDeveloped in collaboration with major petro-chemical companies, the \"drop-in\" fuel is manufactured by capturing carbon from the atmosphere and combining it with green hydrogen. The resulting liquid possesses an energy density nearly identical to current racing fuels, meaning cars will maintain their current speed—and crucially, their iconic sound.\n\n\"We wanted to prove that high performance and extreme sustainability are not mutually exclusive,\" the F1 CEO stated. Several teams have already begun bench-testing prototypes of the fuel, reporting exceptional performance metrics. Beyond the track, the goal is to accelerate the development of this synthetic fuel for eventual commercial use in aviation and legacy internal combustion vehicles.",
+            "author": "Chris Hammond",
+            "publishDate": "2026-03-03T09:45:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1541434190989-ec2b557c6b73?q=80&w=1600&auto=format&fit=crop",
+            "category": "Sports"
+        },
+        {
+            "id": "8",
+            "title": "Mayor Unveils Ambitious 'Green City' Initiative Focused on Micro-Mobility",
+            "slug": "mayor-unveils-green-city-initiative",
+            "excerpt": "The radical new city plan aims to pedestrianize the entire downtown core by 2030, heavily expanding bike lanes and automated public transit.",
+            "content": "In what is being described as the most sweeping urban redesign in the city's history, Mayor Julia Santos formally unveiled the 'Green City 2030' initiative today. The plan centers on completely removing private automobiles from the downtown core within four years.\n\nThe proposal includes laying down 150 miles of protected cycling infrastructure, deploying a fleet of automated electric mini-shuttles, and converting major arterial roads into pedestrian plazas lined with retail and green spaces. \"Our cities were built for cars. We are rebuilding them for people,\" Santos declared during the press conference.\n\nWhile environmental groups and urban planners have lauded the vision, it faces fierce opposition from local business associations who fear delivery logistics and accessibility will be compromised. A city council vote is scheduled for next month, and polling suggests it will be a razor-thin margin.",
+            "author": "Daniel Peters",
+            "publishDate": "2026-03-02T13:10:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1600&auto=format&fit=crop",
+            "category": "Politics"
+        },
+        {
+            "id": "9",
+            "title": "Breakthrough Battery Tech Promises 1,000-Mile Range for EVs",
+            "slug": "breakthrough-battery-1000-mile-ev",
+            "excerpt": "Researchers unveil a solid-state battery architecture that doubles energy density and slashes charging times to under 10 minutes.",
+            "content": "Range anxiety may soon become a relic of the past. A consortium of university researchers and automotive engineers have successfully demonstrated a scalable solid-state battery capable of delivering a 1,000-mile range on a single charge in a standard-sized EV chassis.\n\nThe breakthrough utilizes a new silicon-dominant anode paired with a stable ceramic electrolyte, preventing the dendrite formation that has plagued previous solid-state attempts. Crucially, the battery can safely accept ultra-fast charging, reaching an 80% charge in just 8 minutes without significant thermal degradation.\n\n\"This is the inflection point for mass EV adoption,\" said leading researcher Dr. Kaito Tanaka. Two major automakers have already announced joint ventures to bring this technology to their flagship luxury sedans by late 2027, with mass-market integration expected before the end of the decade.",
+            "author": "Elena Rostova",
+            "publishDate": "2026-03-01T08:00:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1593941707882-a5bba14938cb?q=80&w=1600&auto=format&fit=crop",
+            "category": "Technology"
+        },
+        {
+            "id": "10",
+            "title": "Commercial Real Estate Sector Faces Reckoning as Remote Work Solidifies",
+            "slug": "cre-reckoning-remote-work",
+            "excerpt": "Downtown office vacancy rates hit historic highs, forcing developers to frantically convert high-rises into mixed-use residential spaces.",
+            "content": "What was once thought to be a temporary pandemic measure has permanently reshaped the modern workforce. A new report indicates that only 35% of corporate employees have returned to the office full-time, leaving millions of square feet of prime real estate vacant in major metropolitan areas.\n\nThe commercial real estate (CRE) sector is bracing for massive write-downs as leases expire. In response, a wave of \"adaptive reuse\" projects has flooded city planning departments. Developers are rushing to convert aging office towers into residential apartments to capitalize on the ongoing housing shortage.\n\nHowever, conversions are notoriously difficult and expensive, often requiring massive plumbing and HVAC overhauls. \"You can't just put up a few walls and call a cubicle a bedroom,\" noted one architect. Despite the challenges, city governments are beginning to offer massive tax incentives to accelerate these conversions, viewing them as essential to revitalizing struggling downtown economies.",
+            "author": "Jessica Nguyen",
+            "publishDate": "2026-02-28T10:45:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop",
+            "category": "Business"
+        },
+        {
+            "id": "11",
+            "title": "Tennis Phenom Captures Third Grand Slam Before Age 20",
+            "slug": "tennis-phenom-third-grand-slam",
+            "excerpt": "Continuing absolute dominance on the court, 19-year-old rising star secures another major title with a breathtaking straight-sets victory.",
+            "content": "The world of tennis is rapidly running out of superlatives. The 19-year-old sensation demolished the world Number 2 in straight sets (6-2, 6-3, 6-4) to claim the championship on Sunday, securing a third Grand Slam title before exiting teenage years.\n\nThe performance was a masterclass in aggressive baseline play and tactical precision. What makes this rapid ascent so terrifying for opponents is the sheer variety of the game. Previously known heavily for a devastating forehand, the addition of a clinical drop shot and an unreadable kick serve has made the rising star virtually unplayable on hard courts.\n\nLegends of the game were quick to offer praise via social media, with many predicting a dominant run that could define the next decade of the sport. The focus now shifts to the clay court season, the only surface that has thus far presented mild difficulty for the young champion.",
+            "author": "Simon Wright",
+            "publishDate": "2026-02-27T18:30:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=1600&auto=format&fit=crop",
+            "category": "Sports"
+        },
+        {
+            "id": "12",
+            "title": "Historic Treaty Signed to Protect Deep Sea Ecosystems from Mining",
+            "slug": "historic-treaty-protect-deep-sea",
+            "excerpt": "Dozens of nations agree to a 20-year moratorium on deep-sea mineral extraction, citing severe gaps in ecological understanding.",
+            "content": "In a major victory for environmental conservationists, 142 nations formally signed the Oceanic Preservation Protocol today, effectively banning commercial deep-sea mining in international waters for the next two decades.\n\nThe treaty comes as battery manufacturers pushed aggressively for permits to dredge the ocean floor for polymetallic nodules—potato-sized rocks rich in cobalt, nickel, and manganese essential for electric vehicles. However, a coalition of marine biologists argued that the operations would destroy fragile, undiscovered ecosystems and kick up sediment plumes that could suffocate marine life for hundreds of miles.\n\n\"We cannot sacrifice the ocean floor to save the atmosphere; we must find a balance,\" read the joint statement from the leading signatories. The moratorium will provide time for further scientific research and heavily incentivizes battery manufacturers to invest heavily in battery recycling technologies and alternative chemistries like sodium-ion.",
+            "author": "Dr. Sarah Jenkins",
+            "publishDate": "2026-02-26T12:00:00Z",
+            "coverImageUrl": "https://images.unsplash.com/photo-1682687982501-1e5898cb8f4b?q=80&w=1600&auto=format&fit=crop",
+            "category": "Politics"
+        }
+    ]
+}

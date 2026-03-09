@@ -11,8 +11,6 @@ __pycache__/
 dist/
 build/
 
-# Generated data
-news_data.json
 
 # Logs
 logs/

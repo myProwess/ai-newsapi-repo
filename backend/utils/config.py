@@ -21,7 +21,7 @@ class Config:
     DAILY_REQUEST_LIMIT: int = int(os.getenv("DAILY_REQUEST_LIMIT", "100"))
     DATA_FILE_PATH: str = os.getenv(
         "DATA_FILE_PATH",
-        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "news_data.json"),
+        os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "news_data.json"),
     )
     LOG_LEVEL: str = os.getenv("LOG_LEVEL", "INFO")
     LOG_FILE: str = os.getenv(

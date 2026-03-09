@@ -7,7 +7,7 @@ export function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div className="space-y-3">
                         <h3 className="font-bold text-lg tracking-tight">
-                            NewsRepo<span className="text-primary">AI</span>
+                            AI <span className="text-primary">Enigma</span>
                         </h3>
                         <p className="text-sm text-muted-foreground w-full max-w-xs">
                             A modern, intelligent news platform delivering the most critical stories from around the globe.

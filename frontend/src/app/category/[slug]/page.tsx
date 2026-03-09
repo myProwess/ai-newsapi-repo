@@ -8,6 +8,13 @@ interface CategoryPageProps {
     }>;
 }
 
+export async function generateStaticParams() {
+    const validCategories = ["technology", "business", "sports", "politics"];
+    return validCategories.map((slug) => ({
+        slug: slug,
+    }));
+}
+
 export default async function CategoryPage({ params }: CategoryPageProps) {
     const { slug } = await params;
 

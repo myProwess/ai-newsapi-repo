@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { format } from "date-fns";
 import { ArrowLeft, Clock } from "lucide-react";
-import { getArticleBySlug, getArticlesByCategory } from "@/lib/data";
+import { getArticleBySlug, getArticlesByCategory, getAllArticles } from "@/lib/data";
 import { Badge } from "@/components/ui/badge";
 import { ArticleCard } from "@/components/shared/ArticleCard";
 
@@ -11,6 +11,13 @@ interface ArticlePageProps {
     params: Promise<{
         slug: string;
     }>;
+}
+
+export async function generateStaticParams() {
+    const articles = await getAllArticles();
+    return articles.map((article) => ({
+        slug: article.slug,
+    }));
 }
 
 export default async function ArticlePage({ params }: ArticlePageProps) {

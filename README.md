@@ -2,7 +2,7 @@
 
 AI Enigma is a production-ready, full-stack news aggregation platform designed for high accessibility and premium visual aesthetics. It features a robust Python Flask backend that harvests headlines from the NewsAPI and stores them in a structured local data warehouse, paired with a cutting-edge Next.js frontend that delivers a lightning-fast, glassmorphic reading experience in both dark and light modes.
 
-**[Live Demo 🚀](https://myprowess.github.io/ai-newsapi-repo/)**
+**[Live Demo 🚀](https://myprowess.github.io/ai-enigma/)**
 
 ---
 

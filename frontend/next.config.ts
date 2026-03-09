@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/ai-newsapi-repo',
-  assetPrefix: '/ai-newsapi-repo',
+  basePath: '/ai-enigma',
+  assetPrefix: '/ai-enigma',
   images: {
     unoptimized: true,
     remotePatterns: [

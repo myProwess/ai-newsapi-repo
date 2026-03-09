@@ -10,9 +10,15 @@ interface ArticleCardProps {
     featured?: boolean;
 }
 
+const PLACEHOLDER_IMAGE = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1600&auto=format&fit=crop";
+
 export function ArticleCard({ article, featured = false }: ArticleCardProps) {
     const publishDate = new Date(article.publishDate);
     const formattedDate = formatDistanceToNow(publishDate, { addSuffix: true });
+
+    const imageUrl = article.coverImageUrl || PLACEHOLDER_IMAGE;
+    const excerpt = article.excerpt || "Read the latest updates on this story...";
+    const author = article.author || "News Desk";
 
     if (featured) {
         return (
@@ -20,7 +26,7 @@ export function ArticleCard({ article, featured = false }: ArticleCardProps) {
                 <Card className="overflow-hidden border-0 shadow-none bg-transparent rounded-none sm:rounded-xl">
                     <div className="relative aspect-video w-full overflow-hidden rounded-xl">
                         <Image
-                            src={article.coverImageUrl}
+                            src={imageUrl}
                             alt={article.title}
                             fill
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -37,7 +43,7 @@ export function ArticleCard({ article, featured = false }: ArticleCardProps) {
                                 {article.title}
                             </h2>
                             <p className="text-white/80 text-base md:text-lg line-clamp-2 max-w-3xl">
-                                {article.excerpt}
+                                {excerpt}
                             </p>
                         </div>
                     </div>
@@ -51,7 +57,7 @@ export function ArticleCard({ article, featured = false }: ArticleCardProps) {
             <Card className="overflow-hidden flex flex-col w-full h-full transition-all duration-300 hover:shadow-md dark:hover:border-primary/50 relative border-border/50 bg-card/50 backdrop-blur-sm">
                 <div className="relative aspect-[16/10] overflow-hidden">
                     <Image
-                        src={article.coverImageUrl}
+                        src={imageUrl}
                         alt={article.title}
                         fill
                         className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -66,11 +72,11 @@ export function ArticleCard({ article, featured = false }: ArticleCardProps) {
                         {article.title}
                     </h3>
                     <p className="text-muted-foreground text-sm line-clamp-2 mb-4">
-                        {article.excerpt}
+                        {excerpt}
                     </p>
                 </CardHeader>
                 <CardFooter className="p-5 pt-0 mt-auto flex items-center justify-between text-xs text-muted-foreground font-medium">
-                    <span className="truncate mr-4">{article.author}</span>
+                    <span className="truncate mr-4">{author}</span>
                     <span className="whitespace-nowrap flex-shrink-0">{formattedDate}</span>
                 </CardFooter>
             </Card>

@@ -1,0 +1,42 @@
+name: 1. Update News Data
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Daily at 10 AM IST (approx)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Backend Dependencies
+        run: |
+          cd backend
+          pip install -r requirements.txt
+
+      - name: Fetch News Data
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: |
+          cd backend
+          export PYTHONPATH=$PYTHONPATH:.
+          python update_news.py
+
+      - name: Commit and Push Data Update
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add backend/data/news_data.json
+          git commit -m "chore: automated news data update" || echo "No changes to commit"
+          git push

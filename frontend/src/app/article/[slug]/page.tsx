@@ -36,6 +36,12 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
     const formattedDate = format(new Date(article.publishDate), "MMMM d, yyyy");
 
+    const PLACEHOLDER_IMAGE = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1600&auto=format&fit=crop";
+    const authorName = article.author || "News Desk";
+    const authorInitial = authorName.charAt(0);
+    const contentParagraphs = article.content ? article.content.split('\n\n') : ["No detailed content available for this article."];
+    const imageUrl = article.coverImageUrl || PLACEHOLDER_IMAGE;
+
     return (
         <article className="min-h-screen pb-16">
             <div className="container mx-auto max-w-7xl px-4 md:px-8 py-8">
@@ -55,15 +61,17 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
                         {article.title}
                     </h1>
-                    <p className="text-xl text-muted-foreground mb-8 text-balance mx-auto">
-                        {article.excerpt}
-                    </p>
+                    {article.excerpt && (
+                        <p className="text-xl text-muted-foreground mb-8 text-balance mx-auto">
+                            {article.excerpt}
+                        </p>
+                    )}
                     <div className="flex items-center justify-center space-x-6 text-sm font-medium text-muted-foreground border-y py-4">
                         <span className="flex items-center">
                             <span className="w-8 h-8 rounded-full bg-primary/10 text-primary flex items-center justify-center mr-3 font-bold">
-                                {article.author.charAt(0)}
+                                {authorInitial}
                             </span>
-                            {article.author}
+                            {authorName}
                         </span>
                         <span className="flex items-center">
                             <Clock className="w-4 h-4 mr-2" />
@@ -77,7 +85,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             <div className="w-full max-w-6xl mx-auto px-4 md:px-8 mb-16">
                 <div className="relative aspect-[21/9] overflow-hidden rounded-2xl shadow-xl">
                     <Image
-                        src={article.coverImageUrl}
+                        src={imageUrl}
                         alt={article.title}
                         fill
                         className="object-cover"
@@ -90,9 +98,16 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             {/* Article Content */}
             <div className="container mx-auto px-4 md:px-8 max-w-3xl">
                 <div className="prose prose-lg dark:prose-invert prose-headings:font-bold prose-a:text-primary prose-img:rounded-xl mx-auto">
-                    {article.content.split('\n\n').map((paragraph, index) => (
+                    {contentParagraphs.map((paragraph, index) => (
                         <p key={index}>{paragraph}</p>
                     ))}
+                    {!article.content && article.url && (
+                        <p className="mt-8 font-medium">
+                            <a href={article.url} target="_blank" rel="noopener noreferrer" className="no-underline hover:underline">
+                                Read the full article on the original source &rarr;
+                            </a>
+                        </p>
+                    )}
                 </div>
             </div>
 
